@@ -1,0 +1,192 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Telkom Cat Rescue</title>
+  <!-- CSS files -->
+  <link href="assets/libs/jqvmap/dist/jqvmap.min.css" rel="stylesheet" />
+  <link href="assets/css/tabler.css" rel="stylesheet" />
+  <link href="assets/css/tabler-flags.min.css" rel="stylesheet" />
+  <link href="assets/css/tabler-payments.min.css" rel="stylesheet" />
+  <link href="assets/css/tabler-vendors.min.css" rel="stylesheet" />
+  <link href="assets/css/demo.min.css" rel="stylesheet" />
+</head>
+
+<body class="antialiased bg-white">
+  <div class="page">
+    <header class="navbar navbar-expand-md navbar-light d-print-none">
+      <div class="container-xl">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
+          <a href=".">
+            Telkom Cat Rescue
+          </a>
+        </h1>
+        <div class="navbar-nav flex-row order-md-last">
+
+          <div class="nav-item dropdown">
+            <a href="#" class="nav-link d-flex lh-1 text-reset p-0" data-bs-toggle="dropdown"
+              aria-label="Open user menu">
+              <span class="avatar avatar-sm" style="background-image: url(assets/img/paw.jpg)"></span>
+              <div class="d-none d-xl-block ps-2">
+                <div>Fitri</div>
+                <div class="mt-1 small text-muted">Admin</div>
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+
+              <a href="" class="dropdown-item">Tambah Iklan Adopsi</a>
+              <a href="" class="dropdown-item">Daftar Adopsi</a>
+              <div class="dropdown-divider"></div>
+
+
+              <a href="" class="dropdown-item">Dashboard</a>
+              <a href="" class="dropdown-item">Daftar Iklan Adopsi</a>
+
+
+              <a href="" class="dropdown-item">Profile & account</a>
+              <a href="" class="dropdown-item">Logout</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <?php include 'layout/admin.php'; ?>
+
+    <div class="p-4">
+      <div class="page-header d-print-none">
+        <div class="row align-items-center">
+          <div class="col">
+            <!-- Page pre-title -->
+            <h2 class="page-title">
+              Detail Request Kucing
+            </h2>
+            <div class="page-pretitle">
+              Lihat detail request iklan adopsi
+            </div>
+    
+          </div>
+    
+          <div class="col-auto ms-auto d-print-none">
+            <div class="btn-list">
+              <span class="d-none d-sm-inline">
+                <a href="" class="btn btn-white">
+                  Kembali
+                </a>
+              </span>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+    
+              <div class="row">
+                <div class="col-md-5">
+                  <h3>Informasi</h3>
+                  <table class="table">
+                    <tr>
+                      <td>Nama</td>
+                      <th class="text-right">Jery</th>
+                    </tr>
+    
+                    <tr>
+                      <td>Jenis</td>
+                      <th class="text-right">Anggora</th>
+                    </tr>
+    
+                    <tr>
+                      <td>Umur</td>
+                      <th class="text-right">Kitten</th>
+                    </tr>
+    
+                    <tr>
+                      <td>Jenis Kelamin</td>
+                      <th class="text-right">Jantan</th>
+                    </tr>
+    
+                    <tr>
+                      <td>Pemilik</td>
+                      <th class="text-right"> Rara </th>
+                    </tr>
+    
+                    <tr class="bg-light">
+                      <th colspan="2" class="text-center">
+                        <a onclick="return confirm('Setujui iklan adopsi ?')"
+                          href="" class="btn btn-success">Setujui</a>
+                        <a href=""
+                          onclick="return confirm('Tolak iklan adopsi ?')" class="btn btn-danger">Tolak</a>
+                      </th>
+                    </tr>
+    
+                  </table>
+                </div>
+    
+                <div class="col-md-7">
+                  <h3>Keterangan</h3>
+                  <center>
+                    <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1927&q=80" style="width: 200px; height: 200px">
+                  </center>
+    
+                  <p class="mt-3"> Jery Jinak banget......</p>
+    
+                  <h3>Request Adopsi</h3>
+                  <table class="table">
+                    <tr>
+                      <th style="width: 5%">No</th>
+                      <th>Pengadopsi</th>
+                      <th>Alasan adopsi</th>
+                      <th>Status</th>
+                      <th></th>
+                    </tr>
+    
+                    <tr>
+                      <td></td>
+                      <td>Tata<br><small>Tata@gmail.com<br>018234</small></td>
+                      <td>Butuh teman</td>
+    
+                      <td>
+                        
+                        <span class="badge badge-success">Terpilih</span>
+                      </td>
+                      <td>
+                        <a href=""
+                          class="btn btn-success">Pilih sebagai pengadopsi</a>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+    
+    
+    <!-- Libs JS -->
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/jquery/dist/jquery.slim.min.js"></script>
+    <script src="assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+    <script src="assets/libs/jqvmap/dist/jquery.vmap.min.js"></script>
+    <script src="assets/libs/jqvmap/dist/maps/jquery.vmap.world.js"></script>
+    <!-- Tabler Core -->
+    <script src="assets/js/tabler.min.js"></script>
+    
+    </body>
+    </html>
+    
