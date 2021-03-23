@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Telkom Cat Rescue</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body class="mt-5" style="background-color: #cdf0ff">
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color:#87ceeb">
+    <div class="container">
+        <a class="navbar-brand" href="#">Telkom Cat Rescue
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="#">Adopt A Pet <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Pet Care & Health</a>
+                <a class="nav-link" href="#">Updates</a>
+
+            </div>
+        </div>
+    </div>
+</nav>
+<form class="card card-md" action="proses/login.php" method="POST" autocomplete="off">
+    <div class="card-body">
+        <h2 class="card-title text-center mb-4">Masuk untuk akses akun</h2>
+
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" autocomplete="off" name="email" class="form-control" placeholder="Masukkan email" required="">
+        </div>
+        <div class="mb-2">
+            <label class="form-label">
+                Password
+            </label>
+            <div class="input-group input-group-flat">
+                <input type="password" class="form-control" placeholder="Masukkan password"  placeholder="Password"  autocomplete="off" required="" name="password">
+            </div>
+        </div>
+        <div class="form-footer">
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+        </div>
+    </div>
+</form>
+
+<footer class="text-black" style="background-color: #87ceeb">
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col text-center">
+                <p>@TelkomCatRescue</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
