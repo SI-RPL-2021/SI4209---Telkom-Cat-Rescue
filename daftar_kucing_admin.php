@@ -1,4 +1,3 @@
-<!-- Assign to Fitri, full page -->
 <?php include 'layout/admin.php'; ?>
 
 <div class="p-4">
